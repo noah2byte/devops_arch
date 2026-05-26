@@ -3,7 +3,7 @@ import type { Company } from '../types';
 export const chunjaeData: Company = {
   id: 'chunjae',
   name: '천재교육',
-  period: '2023 – 현재',
+  period: '2024 – 현재',
   subtitle: 'AI 디지털교과서 플랫폼',
   description: '전국민 대상 AI 디지털교과서 46개 교과목 서비스 인프라 설계·구축·운영',
   color: '#6366f1',

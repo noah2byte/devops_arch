@@ -3,7 +3,7 @@ import type { Company } from '../types';
 export const kidsnoteData: Company = {
   id: 'kidsnote',
   name: '키즈노트',
-  period: '2021 – 2023',
+  period: '2022 – 2024',
   subtitle: '카카오 계열 SaaS 플랫폼',
   description: '카카오 계열사 보육 SaaS 플랫폼. VM 기반 대규모 인프라 CI/CD 표준화 및 고도화.',
   color: '#f59e0b',

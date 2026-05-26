@@ -3,7 +3,7 @@ import type { Company } from '../types';
 export const gaionData: Company = {
   id: 'gaion',
   name: '가이온',
-  period: '2019 – 2021',
+  period: '2020 – 2022',
   subtitle: '무역 데이터 플랫폼',
   description: '온프레미스 환경 무역 데이터 플랫폼. 인프라 세팅부터 CI/CD, 개발 지원까지 전 사이클 경험.',
   color: '#10b981',
