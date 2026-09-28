@@ -22,6 +22,7 @@ const iconMap: Record<string, LucideIcon> = {
   jenkins: Server, gitlab: GitBranch, github: GitBranch,
   docker: Box, prometheus: Activity, grafana: BarChart2,
   flask: Code, smartphone: Monitor,
+  argocd: RefreshCw,
 };
 
 // Brand SVG inline components
