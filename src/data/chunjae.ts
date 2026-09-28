@@ -169,7 +169,7 @@ export const chunjaeData: Company = {
               configuration: 'Helm Chart 기반 구축. Kubernetes Plugin으로 동적 에이전트 파드 생성. 에이전트 볼륨(PVC)으로 캐싱 구현. RBAC 설정으로 클러스터 접근 권한 최소화. SSH 키 시크릿으로 VM 배포 지원.',
               operations: '월 5회 이상 재부팅 발생하던 단일 인스턴스 Jenkins를 완전히 대체. 현재 안정적으로 무중단 운영 중. 교과목별 병렬 에이전트 생성으로 전체 배포 진행.',
               troubleshooting: '초기 단일 인스턴스 Jenkins: 메모리 부족으로 월 5회 재부팅, 볼륨 미설정으로 설정 유실, 버전 레거시로 플러그인 충돌 → Helm Chart 기반 재구축, Kubernetes Plugin 도입, PVC 캐싱으로 전면 해결.',
-              improvements: '병렬 배포 도입으로 전체 배포 시간 9시간→10분 미만. 동적 에이전트로 리소스 효율화. 설정 유실 이슈 완전 해소.',
+              improvements: '병렬 배포 도입으로 전체 배포 시간 9시간→10분 미만. 동적 에이전트로 리소스 효율화. 설정 유실 이슈 완전 해소. 향후 ArgoCD 적용으로 Jenkins는 빌드·이미지 푸시·이미지 태그 Git 반영(CI)까지만 담당하고, 클러스터 배포(CD)는 ArgoCD로 분리할 예정(PoC 검증 완료, GitOps 아키텍처 뷰 참고).',
               relatedTech: ['Jenkins', 'Kubernetes', 'Helm', 'Groovy', 'Kaniko', 'RBAC'],
             },
           },
